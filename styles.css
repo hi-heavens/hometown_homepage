@@ -21,6 +21,7 @@ img {
   background-image: url("./images/torshov.jpg");
   background-size: cover;
   padding: 270px 0;
+  text-align: center;
 }
 
 .hero h1 {
@@ -30,6 +31,11 @@ img {
   border-radius: 10px;
   color: #fff;
   padding: 5px 12px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
 }
 
 .hero h2 {
@@ -44,5 +50,4 @@ img {
   font-weight: 700;
   font-size: 18.72px;
   line-height: 22px;
-  text-align: center;
 }
