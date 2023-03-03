@@ -10,6 +10,7 @@ DARK BLUE: #1D3557
 
 body {
   margin: 0;
+  font-family: "Arial";
   text-align: center;
 }
 
@@ -18,7 +19,7 @@ img {
 }
 
 .hero {
-  background-image: url("./images/torshov.jpg");
+  background-image: url("./images/nigeria.jpg");
   background-size: cover;
   padding: 270px 0;
   text-align: center;
@@ -31,7 +32,6 @@ img {
   border-radius: 10px;
   color: #fff;
   padding: 5px 12px;
-  font-family: "Arial";
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -45,9 +45,57 @@ img {
   margin: 20px auto;
   padding: 8px 10px;
   color: #fff;
-  font-family: "Arial";
   font-style: normal;
   font-weight: 700;
   font-size: 18.72px;
   line-height: 22px;
+}
+
+.activities-section {
+  background-color: #f1faee;
+  color: #1d3557;
+  margin-top: 0;
+  padding-bottom: 80px;
+}
+
+.activities-section h3 {
+  margin-top: 0;
+  padding: 60px 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.activities {
+  display: flex;
+  padding: 0 70px;
+  justify-content: space-around;
+}
+
+.activity img {
+  border-radius: 50%;
+  height: 100px;
+}
+
+.activity h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+  padding: 22px 0;
+}
+
+.activity p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
 }
