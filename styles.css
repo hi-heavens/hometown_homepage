@@ -5,7 +5,7 @@ body {
 }
 
 img {
-  width: 100px;
+  width: 200px;
 }
 
 .hero {
@@ -63,7 +63,7 @@ img {
 
 .activity img {
   border-radius: 50%;
-  height: 100px;
+  height: 200px;
 }
 
 .activity h2 {
